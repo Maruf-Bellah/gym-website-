@@ -1,6 +1,7 @@
-.me {
-     clip-path: ellipse(300% 100% at -72.5% 0%);
-     background-color: rgb(3, 3, 31);
+me {
+     clip-path: ellipse(102% 100% at 47.92% 0%);
+     clip-path: ellipse(102% 100% at 47.4% 0%);
+     /* background-color: rgb(3, 3, 31); */
      height: 80vh;
 }
 
@@ -8,9 +9,13 @@
      background-color: rgb(3, 3, 31);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 772px) {
      .me {
-          background-color: rgb(3, 3, 31);
+          /* background-color: rgb(3, 3, 31); */
           height: 120vh;
      }
+}
+
+fo {
+     /* clip-path: ellipse(138% 100% at 51.76% 100%); */
 }
