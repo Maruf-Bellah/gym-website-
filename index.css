@@ -1,0 +1,16 @@
+.me {
+     clip-path: ellipse(300% 100% at -72.5% 0%);
+     background-color: rgb(3, 3, 31);
+     height: 80vh;
+}
+
+.color {
+     background-color: rgb(3, 3, 31);
+}
+
+@media screen and (max-width: 480px) {
+     .me {
+          background-color: rgb(3, 3, 31);
+          height: 120vh;
+     }
+}
